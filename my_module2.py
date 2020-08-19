@@ -9,11 +9,11 @@ class MyClass:
         self.b = b
 
     def show_attributes(self):
-        print("a = {}, b = {}, sum: {}". format(self.a, self.b, self.sum()))
+        print("a = {}, b = {}, sum: {}".format(self.a, self.b, self.sum()))
 
     def sum(self):
         return self.a + self.b
 
-if __name__ == "__main__":
+if __name__=="__main__":
     my_class = MyClass(3, 5)
     my_class.show_attributes()
